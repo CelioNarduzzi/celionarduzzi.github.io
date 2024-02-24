@@ -387,7 +387,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #fff
+    color: #114B5F
 }
 
 .device-notification--logo p {
@@ -504,7 +504,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     text-decoration: none;
-    color: #fff
+    color: #114B5F
 }
 
 .header--logo p {
@@ -544,7 +544,7 @@ body {
     position: relative;
     width: 16px;
     height: 2px;
-    background-color: #fff
+    background-color: #114B5F
 }
 
 .header--nav-toggle::before {
@@ -566,10 +566,10 @@ body {
     padding: 0 20px;
     line-height: 30px;
     text-decoration: none;
-    color: #fff;
+    color: #114B5F;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #0f33ff;
+    background-color: #114B5F;
     border: none;
     opacity: 0;
     visibility: hidden;
@@ -620,7 +620,7 @@ body {
 .side-nav>li {
     position: relative;
     top: -5px;
-    color: #fff;
+    color: #114B5F;
     font-size: 6px;
     cursor: pointer
 }
@@ -629,7 +629,7 @@ body {
     position: relative;
     top: 3px;
     left: 10px;
-    color: #fff;
+    color: #114B5F;
     font-size: 14px;
     font-weight: 300;
     opacity: 0;
@@ -666,7 +666,7 @@ body {
 }
 
 .side-nav li.is-active {
-    color: #0f33ff;
+    color: #114B5F;
     -webkit-transition: color .4s ease-in-out;
     transition: color .4s ease-in-out
 }
@@ -680,7 +680,7 @@ body {
 
 .side-nav li.is-active::before {
     left: -33px;
-    color: #fff
+    color: #114B5F
 }
 
 .intro {
@@ -725,16 +725,6 @@ body {
     background-color: #282828
 }
 
-.intro--banner::after {
-    content: "";
-    position: absolute;
-    bottom: 18px;
-    left: 0;
-    width: 30px;
-    height: 4px;
-    background-color: #0f33ff
-}
-
 .intro--banner h1 {
     position: relative;
     font-size: 68px;
@@ -776,7 +766,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff
+    fill: #E0B0FF
 }
 
 .intro--banner img {
@@ -1014,7 +1004,7 @@ body {
 }
 
 .work--lockup .slider--item-center a {
-    color: #fff
+    color: #114B5F
 }
 
 .work--lockup .slider--item-center .slider--item-title {
@@ -1156,7 +1146,7 @@ body {
     left: 200px;
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    border: 5px solid #0f33ff;
+    border: 5px solid #dfb0ff;
     border-right-color: transparent;
     border-bottom-color: transparent
 }
@@ -1170,7 +1160,7 @@ body {
     transform: rotate(45deg);
     width: 10px;
     height: 10px;
-    background-color: #0f33ff
+    background-color: #dfb0ff
 }
 
 .about--banner h2 {
@@ -1189,7 +1179,7 @@ body {
     left: 268px;
     width: 30px;
     height: 30px;
-    background-color: #0f33ff;
+    background-color: #dfb0ff;
     border-radius: 50%
 }
 
@@ -1200,13 +1190,13 @@ body {
     left: 255px;
     width: 10px;
     height: 10px;
-    background-color: #0f33ff
+    background-color: #dfb0ff
 }
 
 .about--banner a {
     padding: 5px 17px 5px 0;
     text-decoration: none;
-    color: #fff;
+    color: #114B5F;
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent
@@ -1220,7 +1210,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #fff;
+    fill: #114B5F;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
@@ -1251,8 +1241,8 @@ body {
     width: 150px;
     height: 75px;
     text-decoration: none;
-    color: #fff;
-    border: 10px solid #0f33ff;
+    color: #114B5F;
+    border: 10px solid #dfb0ff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
