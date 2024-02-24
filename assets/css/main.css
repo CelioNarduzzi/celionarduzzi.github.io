@@ -277,11 +277,11 @@ body {
 }
 
 body {
-    background-color: #0c0c0c;
+    background-color: #FFF;
     font-size: 14px;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #000;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%
 }
