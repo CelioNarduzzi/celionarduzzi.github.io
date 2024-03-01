@@ -930,7 +930,7 @@ body {
         margin-top: 0px;
       }
     .ResumeTitle {
-            font-size: 30px
+            font-size: 20px
     }
     .boxSkillLanguage {
       display: block;
@@ -939,7 +939,7 @@ body {
        padding-top: 10px;
     }
     .PublicationsTitle {
-        font-size: 25px; 
+        font-size: 20px; 
         position: absolute; 
         top: 0px; 
         left: 0px;
@@ -995,7 +995,7 @@ body {
         margin-top: 0px;
       }
     .ResumeTitle {
-            font-size: 30px
+            font-size: 20px
     }
     .boxSkillLanguage {
       display: block;
@@ -1059,7 +1059,7 @@ body {
         margin-top: 0px;
       }
     .ResumeTitle {
-            font-size: 30px
+            font-size: 20px
     }
     .boxSkillLanguage {
       display: block;
@@ -1106,7 +1106,8 @@ body {
         margin-top: 0px;
       }
     .ResumeTitle {
-            font-size: 30px
+
+            font-size: 20px
     }
     .boxSkillLanguage {
       display: block;
