@@ -904,7 +904,6 @@ body {
 /*! ici pour telephone */
 @media only screen and (max-width: 600px) {
     .presentation {
-        padding-top: 13%;
         width: 100%; 
     }
     .resume,
@@ -969,7 +968,7 @@ body {
         margin-right: 0
     }
     .presentation {
-        padding-top: 13%;
+
         width: 100%; 
     }
     .resume,
@@ -1033,7 +1032,7 @@ body {
         margin-bottom: 0
     }
     .presentation {
-        padding-top: 13%;
+ 
         width: 100%; 
     }
     .resume,
@@ -1071,6 +1070,7 @@ body {
 }
 
 @media (max-width: 600px) {
+    
     .intro--banner {
         height: 360px
     }
@@ -1083,7 +1083,6 @@ body {
         display: none
     }
     .presentation {
-        padding-top: 13%;
         width: 100%; 
     }
     .resume,
@@ -1131,7 +1130,7 @@ body {
     }
 
     .intro--banner h1 {
-        margin-top: 0
+       margin-top: -100px;
     }
 
     .intro--options {
