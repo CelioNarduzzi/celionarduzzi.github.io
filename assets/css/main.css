@@ -30,7 +30,7 @@
     font-style: normal
 }
 
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -892,6 +892,8 @@ body {
 .google-scholar-button {
     background-color: #e4405f;
 }
+
+/*! ici pour telephone */
 @media only screen and (max-width: 600px) {
     .presentation {
         padding-top: 13%;
@@ -904,8 +906,12 @@ body {
       width: 100%;
       padding-top: 13px;
       overflow-y: auto;
-      max-height: 300px;    
+      max-height: 140px;    
       margin: 10px 0;
+    }
+    .cv {
+    
+        position: relative;
     }
     .resume {
         margin-top: -35px;
@@ -947,6 +953,42 @@ body {
     .intro--options>a:last-child {
         margin-right: 0
     }
+    .presentation {
+        padding-top: 13%;
+        width: 100%; 
+    }
+    .resume,
+    .skills,
+    .Languages {
+      position: static;
+      width: 100%;
+      padding-top: 13px;
+      overflow-y: auto;
+      max-height: 140px;    
+      margin: 10px 0;
+    }
+    .cv {
+    
+        position: relative;
+    }
+    .resume {
+        margin-top: -35px;
+    }
+    .Languages {
+        margin-bottom: 30px;
+    }
+    .view-cv-btn {
+        margin-top: 0px;
+      }
+    .ResumeTitle {
+            font-size: 30px
+    }
+    .boxSkillLanguage {
+      display: block;
+    }
+    .social-buttons {
+        padding-top: 30%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -975,6 +1017,42 @@ body {
     .intro--options>a:last-child {
         margin-bottom: 0
     }
+    .presentation {
+        padding-top: 13%;
+        width: 100%; 
+    }
+    .resume,
+    .skills,
+    .Languages {
+      position: static;
+      width: 100%;
+      padding-top: 13px;
+      overflow-y: auto;
+      max-height: 140px;    
+      margin: 10px 0;
+    }
+    .cv {
+    
+        position: relative;
+    }
+    .resume {
+        margin-top: -35px;
+    }
+    .Languages {
+        margin-bottom: 30px;
+    }
+    .view-cv-btn {
+        margin-top: 0px;
+      }
+    .ResumeTitle {
+            font-size: 30px
+    }
+    .boxSkillLanguage {
+      display: block;
+    }
+    .social-buttons {
+        padding-top: 30%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -988,6 +1066,42 @@ body {
 
     .intro--banner img {
         display: none
+    }
+    .presentation {
+        padding-top: 13%;
+        width: 100%; 
+    }
+    .resume,
+    .skills,
+    .Languages {
+      position: static;
+      width: 100%;
+      padding-top: 13px;
+      overflow-y: auto;
+      max-height: 140px;    
+      margin: 10px 0;
+    }
+    .cv {
+    
+        position: relative;
+    }
+    .resume {
+        margin-top: -35px;
+    }
+    .Languages {
+        margin-bottom: 30px;
+    }
+    .view-cv-btn {
+        margin-top: 0px;
+      }
+    .ResumeTitle {
+            font-size: 30px
+    }
+    .boxSkillLanguage {
+      display: block;
+    }
+    .social-buttons {
+        padding-top: 30%;
     }
 }
 
