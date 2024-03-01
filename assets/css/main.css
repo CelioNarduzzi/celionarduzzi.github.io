@@ -1009,6 +1009,9 @@ body {
     .intro--banner {
         height: 305px
     }
+    .intro {
+        padding-top:20px;
+    }
 
     .intro--banner h1 {
         font-size: 44px
