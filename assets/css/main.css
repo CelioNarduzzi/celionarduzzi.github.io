@@ -893,6 +893,14 @@ body {
     background-color: #e4405f;
 }
 
+
+.PublicationsTitle {
+    font-size: 35px; 
+    position: absolute; 
+    top: 0px; 
+    left: -410px;
+}
+
 /*! ici pour telephone */
 @media only screen and (max-width: 600px) {
     .presentation {
@@ -931,6 +939,13 @@ body {
     .social-buttons {
         padding-top: 30%;
     }
+    .PublicationsTitle {
+        font-size: 25px; 
+        position: absolute; 
+        top: 0px; 
+        left: 0px;
+    }
+  
 }
 
 @media (max-width: 900px) {
@@ -1130,8 +1145,9 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 960px;
+    width: 800px;
     max-width: 80%;
+    left: 10%;
     height: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1151,11 +1167,7 @@ body {
     }
 }
 
-.work h2 {
-    margin: 0 0 20px 0;
-    font-size: 30px;
-    text-align: center
-}
+
 
 .work--lockup {
     position: relative
@@ -1186,6 +1198,8 @@ body {
 
 .work--lockup .slider--item-title {
     margin-top: 10px;
+    display: none;
+    max-width: 250px;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase
@@ -1194,6 +1208,24 @@ body {
 .work--lockup .slider--item-description {
     display: none;
     max-width: 250px;
+    margin: 0 auto
+}
+.work--lockup .slider--item-videobtn {
+    display: none;
+    padding: 10px 15px;
+    background-color: #104b5f;
+    color: #fff;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.work--lockup .slider--item-titles {
+    display: none;
+    color:#0C3440;
+    max-width: 500px;
     margin: 0 auto
 }
 
@@ -1244,6 +1276,12 @@ body {
 }
 
 .work--lockup .slider--item-center .slider--item-description {
+    display: block
+}
+.work--lockup .slider--item-center .slider--item-videobtn {
+    display: block
+}
+.work--lockup .slider--item-center .slider--item-titles {
     display: block
 }
 
@@ -1336,6 +1374,9 @@ body {
     .work--lockup .slider--item-right {
         display: none
     }
+    .work {
+        left: 0%;
+    }    
 }
 
 .about {
