@@ -779,30 +779,62 @@ body {
     overflow-y: scroll;
     border-radius: 10px;
     border: 1px solid #114B5F; 
-    top: 20%;
+    top: 2%;
     height: 500px;
     width: 69%;
     right: 0;
     bottom: 0;
     padding-left: 50px;
     box-sizing: border-box;
+    
 }
-.boxSkillLanguage {
+.skills {
     position: absolute;
     border-radius: 10px;
     border: 1px solid #114B5F; 
-    top: 90%;
-    height: 150px;
+    top: 70%;
+    height: 180px;
     width: 40%;
+    padding-left: 20px;
     right: 0;
     bottom: 0;
-    margin-left: -230px;
     box-sizing: border-box;
 }
-.skills {
-    margin-top: -10px;
-    margin-bottom: -10px;
+.Languages {
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid #114B5F; 
+    top: 70%;
+    height: 180px;
+    width: 28%;
+    padding-left: 20px;
+    left: 31%;
+    padding-left: 50px;
+    bottom: 0;
+    box-sizing: border-box;
 }
+.boxSkillLanguage {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+@media only screen and (max-width: 768px) {
+    .resume,
+    .skills,
+    .Languages {
+      position: static;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .boxSkillLanguage {
+      display: block;
+    }
+  }
 .date {
    
         font-size: 12px;
