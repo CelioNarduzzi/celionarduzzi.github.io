@@ -901,6 +901,10 @@ body {
     left: -410px;
 }
 
+.ResumeTitle {
+    font-size: 35px;
+}
+
 /*! ici pour telephone */
 @media only screen and (max-width: 600px) {
     .presentation {
@@ -1302,7 +1306,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #282828;
+    background-color: #114B5F;
     border-radius: 50%;
     cursor: pointer
 }
